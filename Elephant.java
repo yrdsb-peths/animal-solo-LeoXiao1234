@@ -20,6 +20,7 @@ public class Elephant extends Actor
         if(Greenfoot.isKeyDown("Right"))
         {
           move(1);  
-        }        
+        }    
+        removeTouching(Apple.class);
     }
 }
