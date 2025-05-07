@@ -1,11 +1,12 @@
 import greenfoot.*;
 
 public class MyWorld extends World {
+    
     Label scoreLabel;
     public int score = 0;
     public MyWorld() {
         super(600, 400, 1, false);
-        
+        setBackground ("images/background.jpg");
         Elephant elephant = new Elephant();
         addObject(elephant, 300,350);
         scoreLabel = new Label(0,80);
