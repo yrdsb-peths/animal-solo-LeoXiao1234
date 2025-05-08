@@ -35,3 +35,19 @@ java.util.concurrent.TimeoutException
 	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
 	at bluej.terminal.Terminal$TerminalWriter.write(Terminal.java:964)
 	at bluej.debugger.jdi.VMReference$IOHandlerThread.run(VMReference.java:2209)
+====
+
+====
+Greenfoot run started: Thu May 08 08:31:21 EDT 2025
+Greenfoot version: 3.9.0
+Build ID: 6c1390e0
+Java version 21.0.4
+JavaFX version 21.0.3+2
+Virtual machine: OpenJDK 64-Bit Server VM 21.0.4+7-LTS (Eclipse Adoptium)
+Running on: Windows 11 10.0 (amd64)
+Java Home: F:\Greenfoot-windows-390\greenfoot\jdk
+----
+Opening project: F:\animal-solo-LeoXiao1234
+1746707482280: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.

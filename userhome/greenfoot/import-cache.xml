@@ -12755,6 +12755,12 @@
                         <superType superType="java.util.function.IntConsumer"/>
                     </superTypes>
                 </acts>
+                <acts name="OfInt" access="PUBLIC" declaringClass="Node.Builder" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
+                    <superTypes>
+                        <superType superType="java.util.stream.Node$Builder"/>
+                        <superType superType="java.util.stream.Sink$OfInt"/>
+                    </superTypes>
+                </acts>
                 <acts name="Collector" access="PUBLIC" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
                     <superTypes/>
                     <javadoc xml:space="preserve">
@@ -13129,6 +13135,12 @@
                         <superType superType="java.util.stream.Sink$OfLong"/>
                     </superTypes>
                 </acts>
+                <acts name="OfLong" access="PUBLIC" declaringClass="Node.Builder" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
+                    <superTypes>
+                        <superType superType="java.util.stream.Node$Builder"/>
+                        <superType superType="java.util.stream.Sink$OfLong"/>
+                    </superTypes>
+                </acts>
                 <acts name="OfInt" access="PUBLIC" declaringClass="Node.Builder" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
                     <superTypes>
                         <superType superType="java.util.stream.Node$Builder"/>
@@ -13173,6 +13185,12 @@
                 </acts>
                 <acts name="DoubleMapMultiConsumer" access="PUBLIC" declaringClass="DoubleStream" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
                     <superTypes/>
+                </acts>
+                <acts name="OfDouble" access="PUBLIC" declaringClass="Node.Builder" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
+                    <superTypes>
+                        <superType superType="java.util.stream.Node$Builder"/>
+                        <superType superType="java.util.stream.Sink$OfDouble"/>
+                    </superTypes>
                 </acts>
                 <acts name="IntMapMultiConsumer" access="PUBLIC" declaringClass="IntStream" kind="TYPE" typeKind="INTERFACE" packageName="java.util.stream">
                     <superTypes/>
@@ -18461,6 +18479,12 @@
                          @author Doug Lea
                          @param &lt;V&gt; The result type returned by this Future's {@code get} method
                         </javadoc>
+                </acts>
+                <acts name="State" access="PUBLIC" declaringClass="StructuredTaskScope.Subtask" kind="TYPE" typeKind="ENUM" packageName="java.util.concurrent">
+                    <superTypes>
+                        <superType superType="java.lang.Enum"/>
+                        <superType superType="java.lang.Object"/>
+                    </superTypes>
                 </acts>
                 <acts name="ThreadPoolExecutor" access="PUBLIC" kind="TYPE" typeKind="CLASS_NON_FINAL" packageName="java.util.concurrent">
                     <superTypes>
@@ -24643,6 +24667,9 @@
                      @since   1.2
                     </javadoc>
             </acts>
+            <acts name="Linkage" access="PUBLIC" declaringClass="StringTemplate.Processor" kind="TYPE" typeKind="INTERFACE" packageName="java.lang">
+                <superTypes/>
+            </acts>
             <acts name="StackWalker" access="PUBLIC" kind="TYPE" typeKind="CLASS_FINAL" packageName="java.lang">
                 <superTypes>
                     <superType superType="java.lang.Object"/>
@@ -25268,6 +25295,15 @@
                      @jls 7.7 Module Declarations
                     </javadoc>
             </acts>
+            <acts name="Weak" access="PUBLIC" declaringClass="WeakPairMap.Pair" kind="TYPE" typeKind="CLASS_FINAL" packageName="java.lang">
+                <superTypes>
+                    <superType superType="java.lang.WeakPairMap$Pair"/>
+                    <superType superType="java.lang.WeakPairMap$WeakRefPeer"/>
+                    <superType superType="java.lang.ref.WeakReference"/>
+                    <superType superType="java.lang.ref.Reference"/>
+                    <superType superType="java.lang.Object"/>
+                </superTypes>
+            </acts>
             <acts name="UnknownError" access="PUBLIC" kind="TYPE" typeKind="CLASS_NON_FINAL" packageName="java.lang">
                 <superTypes>
                     <superType superType="java.lang.VirtualMachineError"/>
@@ -25554,6 +25590,12 @@
                      @author  Frank Yellin
                      @since   1.1
                     </javadoc>
+            </acts>
+            <acts name="Type" access="PUBLIC" declaringClass="ProcessBuilder.Redirect" kind="TYPE" typeKind="ENUM" packageName="java.lang">
+                <superTypes>
+                    <superType superType="java.lang.Enum"/>
+                    <superType superType="java.lang.Object"/>
+                </superTypes>
             </acts>
             <acts name="FunctionalInterface" access="PUBLIC" kind="TYPE" typeKind="INTERFACE" packageName="java.lang">
                 <superTypes>
@@ -26086,6 +26128,11 @@
                     <superType superType="java.lang.Object"/>
                 </superTypes>
             </acts>
+            <acts name="OfPlatform" access="PUBLIC" declaringClass="Thread.Builder" kind="TYPE" typeKind="INTERFACE" packageName="java.lang">
+                <superTypes>
+                    <superType superType="java.lang.Thread$Builder"/>
+                </superTypes>
+            </acts>
             <acts name="Runnable" access="PUBLIC" kind="TYPE" typeKind="INTERFACE" packageName="java.lang">
                 <superTypes/>
                 <javadoc xml:space="preserve">
@@ -26536,6 +26583,11 @@
                     <superType superType="java.lang.Object"/>
                 </superTypes>
             </acts>
+            <acts name="OfVirtual" access="PUBLIC" declaringClass="Thread.Builder" kind="TYPE" typeKind="INTERFACE" packageName="java.lang">
+                <superTypes>
+                    <superType superType="java.lang.Thread$Builder"/>
+                </superTypes>
+            </acts>
             <acts name="ThreadDeath" access="PUBLIC" kind="TYPE" typeKind="CLASS_NON_FINAL" packageName="java.lang">
                 <superTypes>
                     <superType superType="java.lang.Error"/>
@@ -26967,6 +27019,12 @@
                      @author Mike McCloskey
                      @since 1.4
                     </javadoc>
+            </acts>
+            <acts name="Lookup" access="PUBLIC" declaringClass="WeakPairMap.Pair" kind="TYPE" typeKind="CLASS_FINAL" packageName="java.lang">
+                <superTypes>
+                    <superType superType="java.lang.WeakPairMap$Pair"/>
+                    <superType superType="java.lang.Object"/>
+                </superTypes>
             </acts>
             <acts name="NoSuchFieldError" access="PUBLIC" kind="TYPE" typeKind="CLASS_NON_FINAL" packageName="java.lang">
                 <superTypes>
@@ -29050,6 +29108,12 @@
                      @since   1.2
                      @see Thread.Builder#inheritInheritableThreadLocals(boolean)
                     </javadoc>
+            </acts>
+            <acts name="Level" access="PUBLIC" declaringClass="System.Logger" kind="TYPE" typeKind="ENUM" packageName="java.lang">
+                <superTypes>
+                    <superType superType="java.lang.Enum"/>
+                    <superType superType="java.lang.Object"/>
+                </superTypes>
             </acts>
             <acts name="AutoCloseable" access="PUBLIC" kind="TYPE" typeKind="INTERFACE" packageName="java.lang">
                 <superTypes/>
