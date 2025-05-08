@@ -21,5 +21,6 @@ public class Apple extends Actor
             world.gameOver();
             world.removeObject(this);
         }
+        
     }
 }
