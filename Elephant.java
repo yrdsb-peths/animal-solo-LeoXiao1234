@@ -20,7 +20,7 @@ public class Elephant extends Actor
             idleLeft[i].scale(100,100);
         }
         AnimationTimer.mark();
-        setImage("images/elephant_idle/idle0.png");
+        setImage(idleRight[0]);
     }
     int imageIndex=0;
     public void animateElephant(){
