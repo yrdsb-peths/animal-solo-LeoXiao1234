@@ -16,6 +16,7 @@ public class Apple extends Actor
     
     public void act()
     {
+        setImage("image/apple.png");
         // Add your action code here.
         int x =getX();
         int y = getY()+speed;

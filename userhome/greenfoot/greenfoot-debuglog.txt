@@ -67,3 +67,31 @@ Opening project: F:\animal-solo-LeoXiao1234
 1746794048278: Listening for JDWP connection on address: javadebug
 Connected to debug VM via dt_shmem transport...
 Communication with debug VM fully established.
+Error or exception for source not in project: F:\animal-solo-LeoXiao1234\Actor.java, line 747: java.lang.IllegalStateException:
+Actor not in world. You must add it to a world before you can call this method.
+Error or exception for source not in project: F:\animal-solo-LeoXiao1234\Actor.java, line 171: java.lang.IllegalStateException:
+Actor not in world. You must add it to a world before you can call this method. (in greenfoot.Actor)
+Error or exception for source not in project: F:\animal-solo-LeoXiao1234\Actor.java, line 747: java.lang.IllegalStateException:
+Actor not in world. You must add it to a world before you can call this method.
+Error or exception for source not in project: F:\animal-solo-LeoXiao1234\Actor.java, line 171: java.lang.IllegalStateException:
+Actor not in world. You must add it to a world before you can call this method. (in greenfoot.Actor)
+Error or exception for source not in project: F:\animal-solo-LeoXiao1234\Actor.java, line 747: java.lang.IllegalStateException:
+Actor not in world. You must add it to a world before you can call this method.
+Error or exception for source not in project: F:\animal-solo-LeoXiao1234\Actor.java, line 171: java.lang.IllegalStateException:
+Actor not in world. You must add it to a world before you can call this method. (in greenfoot.Actor)
+====
+
+====
+Greenfoot run started: Mon May 12 08:34:50 EDT 2025
+Greenfoot version: 3.9.0
+Build ID: 6c1390e0
+Java version 21.0.4
+JavaFX version 21.0.3+2
+Virtual machine: OpenJDK 64-Bit Server VM 21.0.4+7-LTS (Eclipse Adoptium)
+Running on: Windows 11 10.0 (amd64)
+Java Home: F:\Greenfoot-windows-390\greenfoot\jdk
+----
+Opening project: F:\animal-solo-LeoXiao1234
+1747053291434: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
